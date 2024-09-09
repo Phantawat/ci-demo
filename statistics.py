@@ -1,4 +1,4 @@
-""" Statistics file contains mathematics modules"""
+"""Statistics file contains mathematics modules."""
 from math import sqrt
 
 

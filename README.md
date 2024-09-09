@@ -1,7 +1,7 @@
 Continuous Integration Demo
 ===========================
 [![Pytest](https://github.com/Phantawat/ci-demo/actions/workflows/python-app.yml/badge.svg)](https://github.com/Phantawat/ci-demo/actions/workflows/.yml)
-[![Flake8](https://github.com/Phantawat/ci-demog/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/Phantawat/ci-demo/actions/workflows/.yml)
+[![Flake8](https://github.com/Phantawat/ci-demo/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/Phantawat/ci-demo/actions/workflows/.yml)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 

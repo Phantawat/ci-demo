@@ -1,6 +1,7 @@
 Continuous Integration Demo
 ===========================
 
+
 This project demonstrates use of Github Actions to build and test a Python project.  
 
 ## Automatic Testing

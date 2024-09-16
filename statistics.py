@@ -2,7 +2,7 @@
 from math import sqrt
 
 
-def average(data):
+def average(data: list) -> float:
     """Return the average of a list of numeric values in data."""
     if len(data) == 0:
         raise ValueError("List must contain at least one value")
@@ -23,7 +23,6 @@ def variance(data):
            Must contain at least one element.
     :returns: population variance of values in data list.
     :raises ValueError: if the data parameter is empty.
-
     >>> variance([1])
     0.0
     >>> variance([1, 1, 1, 1])
@@ -37,7 +36,7 @@ def variance(data):
     if n == 0:
         raise ValueError("List must contain at least one value")
     avg = average(data)
-    return round(sum([(x-avg)**2 for x in data])/n, 1)
+    return sum([(x - avg) ** 2 for x in data]) / n
 
 
 def stdev(data):
